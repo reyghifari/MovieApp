@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Submission Expert</string>
+    <string name="image_description">Image Description</string>
+    <string name="text_primary">Title</string>
+    <string name="vote_average">Vote Average</string>
 </resources>

@@ -4,6 +4,14 @@
     android:layout_height="wrap_content"
     android:background="@android:color/white">
 
+    <ImageView
+        android:id="@+id/ivMainProfil"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:src="@drawable/star" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -15,6 +23,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Selamat Datang"
+            android:textColor="#F44336"
             android:textSize="20sp"
             android:textStyle="bold" />
 
@@ -22,7 +31,7 @@
             android:id="@+id/tvName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Movie List Baru"
+            android:text="List Movie"
             android:textSize="14sp" />
 
     </LinearLayout>

@@ -1,8 +1,9 @@
 package com.hann.submissionexpert.favorite
 
 import androidx.lifecycle.ViewModel
-import com.hann.submissionexpert.core.domain.usecase.MovieUseCase
+import androidx.lifecycle.asLiveData
+import com.hann.core.domain.usecase.MovieUseCase
 
 class FavoriteViewModel(movieUseCase: MovieUseCase) : ViewModel() {
-    val favoriteMovie = movieUseCase.getFavoriteMovie()
+    val favoriteMovie = movieUseCase.getFavoriteMovie().asLiveData()
 }

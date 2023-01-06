@@ -1,13 +1,12 @@
 package com.hann.submissionexpert.detail
 
 import androidx.lifecycle.ViewModel
-import com.hann.submissionexpert.core.domain.model.Movie
-import com.hann.submissionexpert.core.domain.usecase.MovieUseCase
+import com.hann.core.domain.model.Movie
+import com.hann.core.domain.usecase.MovieUseCase
 
 class DetailMovieViewModel(private val movieUseCase: MovieUseCase) : ViewModel() {
 
-    fun setMovieFavorite(movie: Movie, newState: Boolean) {
-        return movieUseCase.setFavoriteMovie(movie, newState)
-    }
+    fun setMovieFavorite(movie: Movie, newState: Boolean)= movieUseCase.setFavoriteMovie(movie, newState)
+
 
 }

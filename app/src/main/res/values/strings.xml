@@ -3,4 +3,9 @@
     <string name="image_description">Image Description</string>
     <string name="text_primary">Title</string>
     <string name="vote_average">Vote Average</string>
+    <string name="something_wrong">Oops.. something went wrong</string>
+    <string name="menu_favorite">Favorite</string>
+    <string name="text_subtitle">Sample Title</string>
+    <string name="no_data">Empty Data</string>
+    <string name="text_title">Title</string>
 </resources>

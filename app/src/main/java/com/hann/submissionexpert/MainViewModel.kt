@@ -1,8 +1,9 @@
 package com.hann.submissionexpert
 
 import androidx.lifecycle.ViewModel
-import com.hann.submissionexpert.core.domain.usecase.MovieUseCase
+import androidx.lifecycle.asLiveData
+import com.hann.core.domain.usecase.MovieUseCase
 
 class MainViewModel(movieUseCase: MovieUseCase) : ViewModel() {
-    val movie = movieUseCase.getAllMovie()
+    val movie = movieUseCase.getAllMovie().asLiveData()
 }
